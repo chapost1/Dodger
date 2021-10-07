@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{5b60fe9a-7829-4c39-90e9-29b568e34058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{fed93c84-728b-4daa-82d5-74bf5a930950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Readonly">
+      <UniqueIdentifier>{7692aed2-f0c1-4e41-a16b-79a9474fbddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\MovingBehavior">
+      <UniqueIdentifier>{ac6af26e-ae1b-4e86-bddf-47e721510cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{9011146d-d0da-4af4-93a8-a32221bdd483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Readonly">
+      <UniqueIdentifier>{38c85206-38d1-4004-b126-e3e29bd4e138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{d0096ca6-9c05-4f85-b5d8-7d9021a9ca1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MovingBehavior">
+      <UniqueIdentifier>{d6af58df-a982-4f17-acb3-f8ba9a7a3c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players">
+      <UniqueIdentifier>{db527d18-7eff-4a04-a945-f1168f10e63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players">
+      <UniqueIdentifier>{a87d7ded-6bd1-4630-ac43-1ed71b881137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Observable">
+      <UniqueIdentifier>{a726772e-8dac-4dab-8104-12f900719319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{9a25daa8-4596-4948-be70-84bad5166cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{adae368a-2605-49b0-8991-d2e8adbcd24a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FramesIterator.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingObject.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodger.h">
+      <Filter>Header Files\Framework\Readonly</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\Framework\Readonly</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files\Framework\Readonly</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Framework\Readonly</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Framework\Readonly</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="FlickerFreeDC.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgerView.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgerDoc.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalMovingBehavior.h">
+      <Filter>Header Files\Game\MovingBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingBehavior.h">
+      <Filter>Header Files\Game\MovingBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleConfig.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingBehaviorFactory.h">
+      <Filter>Header Files\Game\MovingBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="HorizontalMovingBehavior.h">
+      <Filter>Header Files\Game\MovingBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstaclesList.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayersSettingsDialog.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerDetailsDialog.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNotch.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\Observable</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\Observable</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingMovingBehavior.h">
+      <Filter>Header Files\Game\MovingBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="DivingMovingBehavior.h">
+      <Filter>Header Files\Game\MovingBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="LuckUtils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstaclesFactory.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameResetConfirmationDialog.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DodgerDoc.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgerView.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files\Framework\Readonly</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodger.cpp">
+      <Filter>Source Files\Framework\Readonly</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingObject.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleConfig.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingBehaviorFactory.cpp">
+      <Filter>Source Files\MovingBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstaclesList.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayersSettingsDialog.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerDetailsDialog.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNotch.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="LuckUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstaclesFactory.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameResetConfirmationDialog.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dodger.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Dodger.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DodgerDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Dodger.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\p.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\mainframe\dragonite.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

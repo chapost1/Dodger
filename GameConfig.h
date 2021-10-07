@@ -1,0 +1,14 @@
+#pragma once
+
+enum GAME_STATES {
+	NONE = -1,
+	GAME_OVER = 0,
+	GAME_READY = 1,
+	PAUSE = 2,
+	RUNNING = 3,
+	INSTRUCTIONS = 4,
+};
+
+const int INITIAL_GAME_STATE = GAME_STATES{ INSTRUCTIONS };
+
+const double OBJECTS_SPEED_FACTOR = 10.0;
